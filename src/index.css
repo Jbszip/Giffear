@@ -1,0 +1,53 @@
+:root {
+  --fz: 16px;
+  --theme--contrast-0: #121212;
+  --theme-body-bg: #FCFCFC;
+  --theme-body-txt: #222222;
+  --search-size-mx-h: 3rem;
+  --zIndex-header: 20;
+  --zIndex-component: 5;
+  --prin-col:#FB0AED;
+  --hover-prin:#D619CB;
+  --sec-col:#FAEB0A;
+  --ter-col:#F0F0F0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: var(--fz);
+  background-color: var(--theme-body-bg);
+  color: var(--theme-body-txt);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.o-header {
+  background-color: inherit;
+  position: sticky;
+  top: 0;
+  z-index: var(--zIndex-header);
+  max-height: var(--search-size-mx-h);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Roboto&display=swap');

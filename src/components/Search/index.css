@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    box-shadow: rgba(95, 95, 95, 0.4) 0px 2px 20px 2px;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    height: 80px;
+}
+.titulo-prin{
+    display: inline-flex;
+    margin: 1vw 3vw;
+    font-size: 3.2rem;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #FB0AED;
+    background-image: linear-gradient(45deg, #FB0AED, #FAEB0A 90%);
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.barra-b{
+    margin: 25px 1vw 0 0;
+    height: 2.5rem;
+    padding: 0;   
+}
+
+/* Media quieries - Mobile First */
+@media (max-width: 375px){
+    .titulo-prin{
+        font-size: 2.5rem;
+        margin: 3vw 2vw 3vw 3vw;
+    }
+  }
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){ 
+
+}
+@media (min-width: 992px){
+    .titulo-prin{
+        margin: 0 3vw;
+    }
+}
+@media (min-width: 1200px){
+    
+}

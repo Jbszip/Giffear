@@ -1,0 +1,41 @@
+.btn-to-top{
+    position: fixed;
+    padding: 0;
+    bottom: 2.5vw;
+    right: 3vw;
+    z-index: 30;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 5.5rem;
+    
+}
+.btn-to-top:hover{
+    color: var(--hover-prin);
+}
+.to-top-icon{
+    background-color: var(--prin-col);
+    color: #FCFCFC;
+    border-radius: 50%;
+    border: 1px solid var(--prin-col);
+    font-size: 5rem;
+}
+
+/* Media quieries - Mobile First */
+@media (min-width: 576px){
+    .btn-to-top{
+        font-size: 4.5rem;
+    }
+}
+@media (min-width: 768px){ 
+    .btn-to-top{
+        bottom: 50px;
+        font-size: 5.5rem;
+    }
+}
+@media (min-width: 992px){
+  
+}
+@media (min-width: 1200px){
+
+}

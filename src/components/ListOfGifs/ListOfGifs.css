@@ -1,0 +1,36 @@
+:root {
+  --gridList-column: 250px;
+  --gridList-rows: 250px;
+  --gridList-gap: 6px;
+}
+
+.ListOfGifs {
+  display: flex;
+  flex-flow:column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* Media quieries - Mobile First */
+@media (min-width: 485px){
+
+}
+@media (min-width: 576px){
+  
+}
+@media (min-width: 768px){ 
+  .ListOfGifs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px){
+  .ListOfGifs{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px){
+  .ListOfGifs{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,15 @@
+img {
+    max-width: 350px;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+p{
+    padding-top: 0px;
+    margin-top: 0px;
+}

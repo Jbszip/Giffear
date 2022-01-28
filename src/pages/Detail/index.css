@@ -1,0 +1,51 @@
+.Detail-wrapper{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: Roboto;
+    font-weight: 900;
+    font-style: italic;
+}
+.Gif img{
+    box-shadow: rgba(100,100,111,0.4) 0px 7px 29px 0px;
+}
+.copy-icon{
+    position: absolute;
+    font-size: 1rem;
+    color: #FCFCFC;
+    background-color: rgba(100,100,111,0.4);
+    border-radius: 50%;
+    border: none;
+    padding: 5px 5px 5px 7px;
+    margin: 5px 5px;
+}
+.copy-icon:hover{
+    background-color: rgba(39, 39, 39, 0.4);
+    color: #FCFCFCFC;
+}
+.copy-text{
+    position: absolute;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 0.7rem;
+    padding: 5px 5px 5px 7px;
+    margin: 8px 5px;
+    background-color: rgba(219, 219, 219, 0.61);
+    border-radius: 10px;
+    z-index: -1;
+}
+.copied{
+    z-index: 30;
+}
+.vanish{
+    z-index: -1;
+}
+@media (max-width: 450px){
+    .Gif img{
+        width: 80vw;
+    }
+}
+

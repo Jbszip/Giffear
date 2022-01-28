@@ -1,0 +1,55 @@
+.Category-title{
+    font-weight: 700;
+    font-family: Roboto;
+    font-style: italic;
+}
+.Category-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: auto;
+    width: 90vw;
+    margin: 5vw;
+
+}
+.Category-list li{
+    display: inline-flex;
+    padding: 0;
+    margin: 5px;
+}
+.Category-link{
+    font-size: 1.2rem;
+    font-family: Roboto;
+    padding: 2px 5px;
+    font-weight: 600;
+    background-color: var(--prin-col);
+    text-decoration: none;
+    color: white;
+}
+.Category-link:hover{
+    background-color: var(--hover-prin);
+}
+
+/* Media quieries - Mobile First */
+@media (min-width: 576px){
+    .Category-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 768px){ 
+
+}
+@media (min-width: 992px){
+    .Category-title{
+        margin-left: 5vw;
+    }
+    .Category-list{
+        display: flex;
+        flex-flow: column;
+        width: 10vw;
+        margin-top: 2vw;
+  }
+}
+@media (min-width: 1200px){
+    
+}

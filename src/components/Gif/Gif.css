@@ -1,0 +1,50 @@
+.Gif-link{
+  display: inline-flex;
+  flex-flow: column;
+  background-color: #969696;
+  margin: 10px;
+  box-shadow: rgba(100,100,111,0.4) 0px 7px 29px 0px;
+  height: 200px;
+  width:300px;
+}
+.Gif-link h4 {
+  background: rgba(121, 118, 118, 0.3);
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+}
+.Gif-link img{
+  height: 200px;
+  width: 300px;
+  margin:0;
+}
+.Gif-link:hover{
+  box-shadow: rgba(46, 46, 70, 0.7) 0px 7px 29px 0px;
+}
+.Gif-link:hover h4{
+  color: var(--prin-col);
+}
+
+
+
+/* Media quieries - Mobile First */
+@media (min-width: 576px) and (max-width: 768px){
+  .Gif-link{
+    height: 250px;
+    width:350px;
+  }
+  .Gif-link img{
+    height: 250px;
+    width: 100%;
+  }
+}
+@media (min-width: 768px){ 
+
+}
+@media (min-width: 992px){
+  
+}
+@media (min-width: 1200px){
+
+}
