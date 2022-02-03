@@ -9,7 +9,7 @@ export default function LazyTrending () {
     
     return (
         <div ref={fromRef}>
-            <Suspense fallback={"Cargando Tendencias..."}>
+            <Suspense fallback={"Cargando..."}>
                 {isNearScreen ? <TrendingSearches /> : null}
             </Suspense>
         </div>
