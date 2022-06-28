@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #FCFCFC;
+    background-image: linear-gradient(45deg, var(--prin-col), var(--sec-col));
     box-shadow: rgba(95, 95, 95, 0.4) 0px 2px 20px 2px;
     position: sticky;
     top: 0;
@@ -15,14 +15,9 @@
     font-family: Poppins;
     font-weight: 700;
     font-style: italic;
-    background-color: #FB0AED;
-    background-image: linear-gradient(45deg, #FB0AED, #FAEB0A 90%);
-    color: transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    color: var(--ter-col);
+    text-decoration: none;
+    border: none;
 }
 .barra-b{
     margin: 25px 1vw 0 0;

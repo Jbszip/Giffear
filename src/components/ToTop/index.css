@@ -14,8 +14,8 @@
     color: var(--hover-prin);
 }
 .to-top-icon{
-    background-color: var(--prin-col);
-    color: #FCFCFC;
+    background: linear-gradient(45deg, var(--prin-col), var(--sec-col) 90%);
+    color: var(--ter-col);
     border-radius: 50%;
     border: 1px solid var(--prin-col);
     font-size: 5rem;
